@@ -8,7 +8,7 @@ rating.
 function cutestCat(cats) {
   let cutest = cats[0];
 
-  for (let i = 0; i < cats.length; i++) {
+  for (let i = 1; i < cats.length; i++) {
     let cat = cats[i];
     if (cat["cuteness"] > cutest["cuteness"])
       cutest = cat;
